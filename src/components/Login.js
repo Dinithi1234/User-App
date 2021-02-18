@@ -17,13 +17,11 @@ function Login() {
                 [event.target.name] :value
             }
         )
-        //console.log(data);
     }
 
     const handleSubmit = (event) => {
         
         if(data.email=='' || data.password==''){
-            //alert('Enter your credentials')
             event.preventDefault();
             setError(true)
         } else{
