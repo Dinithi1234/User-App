@@ -17,7 +17,7 @@ function Login() {
                 [event.target.name] :value
             }
         )
-        console.log(data);
+        //console.log(data);
     }
 
     const handleSubmit = (event) => {

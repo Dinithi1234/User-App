@@ -1,13 +1,13 @@
 import React from 'react'
 import User from './User'
 
-function Users({users, onDelete, updateUser}) {
+function Users({users, onDelete, onUpdate}) {
     console.log('im here');
     
     return (
         <div>
             {users.map((user)=>(
-                <User key={user.id} id = {user.id} user={user.fullname} onDelete={()=>onDelete(user.id)} updateUser={()=>updateUser(user.id, user.fullname)}/>
+                <User key={user.id} id = {user.id} user={user.fullname} onDelete={()=>onDelete(user.id)} onUpdate={() => onUpdate(user.id, user.fullname)}/>
             ))}
         </div>
     )
