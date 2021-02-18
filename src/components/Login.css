@@ -1,0 +1,24 @@
+
+.login {
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 50px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.title{
+    color: rgb(95, 93, 93);
+}
+
+.error{
+    display:block;
+    color: rgb(243, 88, 88);
+    padding-bottom: 15px;
+}
+
+.noError{
+    display: none;
+}
